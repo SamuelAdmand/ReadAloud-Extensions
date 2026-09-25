@@ -16,103 +16,227 @@
           "name": "Medium & Partner Blogs",
           "domain": "medium.com",
           "domains": ["medium.com", "*.medium.com", "towardsdatascience.com", "hackernoon.com", "betterprogramming.pub"],
-          "description": "Bypasses member overlays, strips clapping counters, and extracts full story content and code blocks."
+          "description": "Bypasses member overlays, strips clapping counters, and extracts full story content and code blocks.",
+          "notes": "Updated for 2026: Successfully bypasses member-only overlays, removes floating author follow cards, and preserves formatted code snippets.",
+          "improvements": [
+            "Bypasses member-only paywall overlay curtain",
+            "Strips applause/clapping counters & floating social share bars",
+            "Removes 'Open in app' prompts and footer recommendation grids",
+            "Preserves syntax-highlighted code blocks and inline author quotes"
+          ],
+          "lastUpdated": "September 2026"
         },
         {
           "name": "Wikipedia",
           "domain": "wikipedia.org",
           "domains": ["wikipedia.org", "*.wikipedia.org"],
-          "description": "Cleans citation numbers [1][2], infoboxes, navigation templates, and edit links."
+          "description": "Cleans citation numbers [1][2], infoboxes, navigation templates, and edit links.",
+          "notes": "Optimized for audio playback: Citation numbers [1][2] and reference superscripts are cleanly filtered out so speech sounds natural.",
+          "improvements": [
+            "Strips inline bracketed citation markers (e.g. [1][2]) for seamless speech",
+            "Removes bulky infobox tables and right-aligned metadata bars",
+            "Filters out [edit] section links, navigation boxes, and hatnotes",
+            "Removes reference bibliography lists and external link catalogs"
+          ],
+          "lastUpdated": "September 2026"
         },
         {
           "name": "Substack",
           "domain": "substack.com",
           "domains": ["substack.com", "*.substack.com"],
-          "description": "Removes subscription popups, subscriber-only curtains, and extracts newsletter essays."
+          "description": "Removes subscription popups, subscriber-only curtains, and extracts newsletter essays.",
+          "notes": "Bypasses newsletter signup curtains and extracts full essays without subscription prompts.",
+          "improvements": [
+            "Bypasses subscription paywall curtain and 'Upgrade to paid' walls",
+            "Removes sticky subscription header and embedded email input widgets",
+            "Filters out comment section prompts and author pledge overlays",
+            "Preserves newsletter subtitle, author byline, and essay paragraphs"
+          ],
+          "lastUpdated": "September 2026"
         },
         {
           "name": "The New York Times",
           "domain": "nytimes.com",
           "domains": ["nytimes.com", "*.nytimes.com"],
-          "description": "Bypasses paywall gateway modals and extracts the full reporting body."
+          "description": "Bypasses paywall gateway modals and extracts the full reporting body.",
+          "notes": "Gateway barrier blocker: removes the expanding subscriber bottom dock and paywall backdrop.",
+          "improvements": [
+            "Removes gateway content modal and subscription roadblock backdrop",
+            "Strips sticky bottom dock prompts and audio player widgets",
+            "Removes inline photo captions and interactive graphics placeholders",
+            "Preserves full investigative journalism text and article body"
+          ],
+          "lastUpdated": "September 2026"
         },
         {
           "name": "Bloomberg",
           "domain": "bloomberg.com",
           "domains": ["bloomberg.com", "*.bloomberg.com"],
-          "description": "Removes paywall barrier overlays and recovers financial news articles."
+          "description": "Removes paywall barrier overlays and recovers financial news articles.",
+          "notes": "Bypasses paywall barrier overlay and terminal subscription prompts.",
+          "improvements": [
+            "Removes Bloomberg paywall barrier and subscription modal",
+            "Strips live ticker widgets, video popups, and financial tables",
+            "Recovers full financial reporting and market news articles"
+          ],
+          "lastUpdated": "September 2026"
         },
         {
           "name": "The Wall Street Journal",
           "domain": "wsj.com",
           "domains": ["wsj.com", "*.wsj.com"],
-          "description": "Bypasses snippet truncation and extracts full news articles."
+          "description": "Bypasses snippet truncation and extracts full news articles.",
+          "notes": "Snippet truncation bypass: extracts the full news text from available content sections.",
+          "improvements": [
+            "Bypasses paywall snippet truncation barrier",
+            "Removes subscriber signup banner and login gateway prompt",
+            "Extracts full business reporting body and editorial columns"
+          ],
+          "lastUpdated": "September 2026"
         },
         {
           "name": "The Washington Post",
           "domain": "washingtonpost.com",
           "domains": ["washingtonpost.com", "*.washingtonpost.com"],
-          "description": "Removes newsletter signup walls and paywall backdrops."
+          "description": "Removes newsletter signup walls and paywall backdrops.",
+          "notes": "Removes newsletter signup walls and dark paywall backdrops.",
+          "improvements": [
+            "Removes paywall backdrop and newsletter signup walls",
+            "Strips embedded podcast widgets and social share buttons",
+            "Extracts complete political news and opinion editorial content"
+          ],
+          "lastUpdated": "September 2026"
         },
         {
           "name": "Financial Times",
           "domain": "ft.com",
           "domains": ["ft.com", "*.ft.com"],
-          "description": "Bypasses paywall barrier and extracts full international business news."
+          "description": "Bypasses paywall barrier and extracts full international business news.",
+          "notes": "Bypasses subscriber barrier and extracts international business news.",
+          "improvements": [
+            "Removes FT subscription barrier and cookie consent modal",
+            "Strips commercial sponsor tags and market data widgets",
+            "Preserves international finance and global market reporting"
+          ],
+          "lastUpdated": "September 2026"
         },
         {
           "name": "The Verge & Vox Media",
           "domain": "theverge.com",
           "domains": ["theverge.com", "vox.com", "polygon.com", "eater.com"],
-          "description": "Strips commerce buy boxes, newsletter modals, and extracts clean editorial text."
+          "description": "Strips commerce buy boxes, newsletter modals, and extracts clean editorial text.",
+          "notes": "Strips commerce buy boxes, newsletter prompts, and affiliate product links.",
+          "improvements": [
+            "Strips commercial affiliate buy boxes and price tracking widgets",
+            "Removes newsletter signup modals and related story carousels",
+            "Extracts clean editorial tech reviews and feature reporting"
+          ],
+          "lastUpdated": "September 2026"
         },
         {
           "name": "TechCrunch",
           "domain": "techcrunch.com",
           "domains": ["techcrunch.com"],
-          "description": "Bypasses cookie consent wall and extracts clean tech journalism."
+          "description": "Bypasses cookie consent wall and extracts clean tech journalism.",
+          "notes": "Bypasses cookie consent wall and extracts clean startup journalism.",
+          "improvements": [
+            "Bypasses cookie consent wall and newsletter popups",
+            "Removes startup funding table clutter and sponsor blocks",
+            "Extracts clean technology reporting and founder interviews"
+          ],
+          "lastUpdated": "September 2026"
         },
         {
           "name": "Wired & Condé Nast",
           "domain": "wired.com",
           "domains": ["wired.com", "newyorker.com", "vanityfair.com"],
-          "description": "Removes paywall meter and extracts in-depth magazine journalism."
+          "description": "Removes paywall meter and extracts in-depth magazine journalism.",
+          "notes": "Removes monthly article meter and extracts in-depth magazine journalism.",
+          "improvements": [
+            "Bypasses monthly article meter and paywall overlay",
+            "Removes consumer gear widgets and subscription banners",
+            "Extracts longform magazine storytelling and investigative pieces"
+          ],
+          "lastUpdated": "September 2026"
         },
         {
           "name": "The Atlantic",
           "domain": "theatlantic.com",
           "domains": ["theatlantic.com"],
-          "description": "Removes monthly article limit modal and recovers longform essays."
+          "description": "Removes monthly article limit modal and recovers longform essays.",
+          "notes": "Removes monthly article limit modal and recovers longform essays.",
+          "improvements": [
+            "Removes article limit gate and member registration curtain",
+            "Strips author bio cards, podcast plugs, and issue navigation",
+            "Extracts full literary essays, political essays, and culture reviews"
+          ],
+          "lastUpdated": "September 2026"
         },
         {
           "name": "Reuters",
           "domain": "reuters.com",
           "domains": ["reuters.com"],
-          "description": "Removes registration wall and extracts clean news text."
+          "description": "Removes registration wall and extracts clean news text.",
+          "notes": "Removes registration wall and extracts clean global wire news.",
+          "improvements": [
+            "Removes mandatory user registration wall modal",
+            "Strips breaking news ticker banners and video player embeds",
+            "Extracts clean international news dispatch paragraphs"
+          ],
+          "lastUpdated": "September 2026"
         },
         {
           "name": "BBC News",
           "domain": "bbc.com",
           "domains": ["bbc.com", "bbc.co.uk"],
-          "description": "Removes live coverage banners, audio player widgets, and related story lists."
+          "description": "Removes live coverage banners, audio player widgets, and related story lists.",
+          "notes": "Removes live coverage banners, audio player widgets, and related story lists.",
+          "improvements": [
+            "Removes live-reporting timestamps and audio stream player widgets",
+            "Strips 'More on this story' links and regional news cards",
+            "Extracts clean broadcast journalism news body"
+          ],
+          "lastUpdated": "September 2026"
         },
         {
           "name": "The Guardian",
           "domain": "theguardian.com",
           "domains": ["theguardian.com"],
-          "description": "Removes contribution/support popups and extracts clean journalism."
+          "description": "Removes contribution/support popups and extracts clean journalism.",
+          "notes": "Removes contribution/support popups and extracts clean journalism.",
+          "improvements": [
+            "Removes persistent support/contribution popups and banners",
+            "Strips inline live-blog navigation and comment section anchors",
+            "Extracts clean international reporting and editorial essays"
+          ],
+          "lastUpdated": "September 2026"
         },
         {
           "name": "Ars Technica",
           "domain": "arstechnica.com",
           "domains": ["arstechnica.com"],
-          "description": "Extracts multi-page tech deep-dives cleanly."
+          "description": "Extracts multi-page tech deep-dives cleanly.",
+          "notes": "Extracts multi-page tech deep-dives cleanly.",
+          "improvements": [
+            "Removes subscriber promotion banners and ad containers",
+            "Preserves technical diagrams, benchmark summaries, and code snippets",
+            "Extracts comprehensive hardware, software, and policy deep-dives"
+          ],
+          "lastUpdated": "September 2026"
         },
         {
           "name": "Universal Web Reader",
           "domain": "*",
           "domains": ["*"],
-          "description": "Smart DOM heuristic extractor with Readability engine for any website."
+          "description": "Smart DOM heuristic extractor with Readability engine for any website.",
+          "notes": "Smart DOM heuristic extractor with Readability engine for any website.",
+          "improvements": [
+            "Heuristic article container scoring using Mozilla Readability principles",
+            "Automatic stripping of navigation bars, footers, headers, and aside widgets",
+            "Clutter and cookie notice filtering across all modern web publications",
+            "Preserves article headline, subheadings, and ordered paragraphs"
+          ],
+          "lastUpdated": "September 2026"
         }
       ]
     }
