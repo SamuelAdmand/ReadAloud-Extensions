@@ -1,0 +1,10 @@
+{
+  "id": "com.samuel.extractor.medium",
+  "name": "Medium & Partner Blogs",
+  "version": "1.0.0",
+  "author": "ReadAloud Community",
+  "description": "Bypasses paywall overlays and extracts full article text on Medium, Towards Data Science, and partner publications.",
+  "domains": ["medium.com", "*.medium.com", "towardsdatascience.com", "hackernoon.com"],
+  "priority": 100,
+  "main": "index.js"
+}

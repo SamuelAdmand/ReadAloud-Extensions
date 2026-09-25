@@ -1,0 +1,26 @@
+{
+  "name": "ReadAloud Community Extensions",
+  "repositoryUrl": "https://raw.githubusercontent.com/SamuelAdmand/ReadAloud-Extensions/main/registry.json",
+  "extensions": [
+    {
+      "id": "com.samuel.extractor.medium",
+      "name": "Medium & Partner Blogs",
+      "version": "1.0.0",
+      "author": "ReadAloud Community",
+      "description": "Bypasses paywall overlays and extracts full article text on Medium, Towards Data Science, and partner publications.",
+      "domains": ["medium.com", "*.medium.com", "towardsdatascience.com", "hackernoon.com"],
+      "priority": 100,
+      "downloadUrl": "https://raw.githubusercontent.com/SamuelAdmand/ReadAloud-Extensions/main/packages/medium-extractor.readaloud-ext"
+    },
+    {
+      "id": "com.samuel.extractor.wikipedia",
+      "name": "Wikipedia Cleaner",
+      "version": "1.0.0",
+      "author": "ReadAloud Community",
+      "description": "Optimized extractor for Wikipedia articles: strips citation brackets [1][2], infoboxes, and edit links.",
+      "domains": ["*.wikipedia.org", "wikipedia.org"],
+      "priority": 100,
+      "downloadUrl": "https://raw.githubusercontent.com/SamuelAdmand/ReadAloud-Extensions/main/packages/wikipedia-extractor.readaloud-ext"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "com.samuel.extractor.wikipedia",
+  "name": "Wikipedia Cleaner",
+  "version": "1.0.0",
+  "author": "ReadAloud Community",
+  "description": "Optimized extractor for Wikipedia articles: strips citation brackets [1][2], infoboxes, and edit links.",
+  "domains": ["*.wikipedia.org", "wikipedia.org"],
+  "priority": 100,
+  "main": "index.js"
+}
