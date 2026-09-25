@@ -1,0 +1,114 @@
+{
+  "id": "com.samuel.extractor.universal",
+  "name": "ReadAloud Universal Extractor",
+  "version": "1.0.0",
+  "author": "ReadAloud Community",
+  "description": "Comprehensive all-in-one article extractor with custom paywall bypasses and formatting rules for Medium, Wikipedia, Substack, Bloomberg, NYTimes, TechCrunch, The Verge, and 50+ publications.",
+  "domains": ["*"],
+  "priority": 100,
+  "main": "index.js",
+  "sites": [
+    {
+      "name": "Medium & Partner Blogs",
+      "domain": "medium.com",
+      "domains": ["medium.com", "*.medium.com", "towardsdatascience.com", "hackernoon.com", "betterprogramming.pub"],
+      "description": "Bypasses member overlays, strips clapping counters, and extracts full story content and code blocks."
+    },
+    {
+      "name": "Wikipedia",
+      "domain": "wikipedia.org",
+      "domains": ["wikipedia.org", "*.wikipedia.org"],
+      "description": "Cleans citation numbers [1][2], infoboxes, navigation templates, and edit links."
+    },
+    {
+      "name": "Substack",
+      "domain": "substack.com",
+      "domains": ["substack.com", "*.substack.com"],
+      "description": "Removes subscription popups, subscriber-only curtains, and extracts newsletter essays."
+    },
+    {
+      "name": "The New York Times",
+      "domain": "nytimes.com",
+      "domains": ["nytimes.com", "*.nytimes.com"],
+      "description": "Bypasses paywall gateway modals and extracts the full reporting body."
+    },
+    {
+      "name": "Bloomberg",
+      "domain": "bloomberg.com",
+      "domains": ["bloomberg.com", "*.bloomberg.com"],
+      "description": "Removes paywall barrier overlays and recovers financial news articles."
+    },
+    {
+      "name": "The Wall Street Journal",
+      "domain": "wsj.com",
+      "domains": ["wsj.com", "*.wsj.com"],
+      "description": "Bypasses snippet truncation and extracts full news articles."
+    },
+    {
+      "name": "The Washington Post",
+      "domain": "washingtonpost.com",
+      "domains": ["washingtonpost.com", "*.washingtonpost.com"],
+      "description": "Removes newsletter signup walls and paywall backdrops."
+    },
+    {
+      "name": "Financial Times",
+      "domain": "ft.com",
+      "domains": ["ft.com", "*.ft.com"],
+      "description": "Bypasses paywall barrier and extracts full international business news."
+    },
+    {
+      "name": "The Verge & Vox Media",
+      "domain": "theverge.com",
+      "domains": ["theverge.com", "vox.com", "polygon.com", "eater.com"],
+      "description": "Strips commerce buy boxes, newsletter modals, and extracts clean editorial text."
+    },
+    {
+      "name": "TechCrunch",
+      "domain": "techcrunch.com",
+      "domains": ["techcrunch.com"],
+      "description": "Bypasses cookie consent wall and extracts clean tech journalism."
+    },
+    {
+      "name": "Wired & Condé Nast",
+      "domain": "wired.com",
+      "domains": ["wired.com", "newyorker.com", "vanityfair.com"],
+      "description": "Removes paywall meter and extracts in-depth magazine journalism."
+    },
+    {
+      "name": "The Atlantic",
+      "domain": "theatlantic.com",
+      "domains": ["theatlantic.com"],
+      "description": "Removes monthly article limit modal and recovers longform essays."
+    },
+    {
+      "name": "Reuters",
+      "domain": "reuters.com",
+      "domains": ["reuters.com"],
+      "description": "Removes registration wall and extracts clean news text."
+    },
+    {
+      "name": "BBC News",
+      "domain": "bbc.com",
+      "domains": ["bbc.com", "bbc.co.uk"],
+      "description": "Removes live coverage banners, audio player widgets, and related story lists."
+    },
+    {
+      "name": "The Guardian",
+      "domain": "theguardian.com",
+      "domains": ["theguardian.com"],
+      "description": "Removes contribution/support popups and extracts clean journalism."
+    },
+    {
+      "name": "Ars Technica",
+      "domain": "arstechnica.com",
+      "domains": ["arstechnica.com"],
+      "description": "Extracts multi-page tech deep-dives cleanly."
+    },
+    {
+      "name": "Universal Web Reader",
+      "domain": "*",
+      "domains": ["*"],
+      "description": "Smart DOM heuristic extractor with Readability engine for any website."
+    }
+  ]
+}
